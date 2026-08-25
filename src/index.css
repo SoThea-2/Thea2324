@@ -1,0 +1,94 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: khmer os battambang;
+}
+h1{
+  color: blue;
+  text-align: center;
+}
+.containar{
+  background-color: bisque;
+  height: 100vh;
+}
+.header1{
+  text-align: center;
+  line-height: 2;
+}
+.logo1{
+  display: flex;
+  padding: 10px;
+}
+.img1 img{
+  height: 100px;
+}
+.p1{
+  line-height: 2;
+  padding: 0 10px;
+}
+.all-logo{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 59px;
+}
+.PP,.btn{
+  text-align: center;
+}
+.btn button{
+  padding: 5px 10px;
+  width: 100px;
+  border: 0;
+  background: blue;
+  color: aliceblue;
+}
+.btn button:hover{
+  background-color: rgb(34, 0, 125);
+  color: aliceblue;
+  border: 0;
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: khmer os battambang;
+}
+.container{
+  background-color: rgb(255, 241, 199);
+  height: 100vh;
+}
+header{
+  text-align: center;
+  line-height: 2;
+  padding: 20px;
+}
+header h1{
+  font-size: 46px;
+  font-weight: bold;
+  color:rgb(79, 21, 241)
+}
+header h3{
+  font-size: 30px;
+}
+.course{
+  margin-left: 20%;
+  margin-right: 20%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
+  row-gap: 20px;
+}
+.course img{
+  height: 100px;
+
+}
+.course-card{
+  display: flex;
+  line-height: 2;
+}
+.text-name{
+  margin-left: 10px;
+}
